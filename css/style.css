@@ -1,0 +1,34 @@
+
+.q{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   background-color:lightgrey;
+}
+.q h5{
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: 'semi';
+    color: #D4AF37;
+}
+.q h3{
+    font-size: 21px;
+    margin-bottom: 30px;
+    font-family: 'semi';
+}
+.q p{
+    font-size: 15px;
+    margin-top: 40px;
+    font-family: 'light';
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+}
